@@ -1,6 +1,26 @@
 @import "utils/normalize";
+@import "utils/reset";
 @import "utils/colors";
 
 body {
   font-size: 16px;
+}
+
+.App-content {
+  background-color: $silver-colorLight;
+}
+
+.Filter {
+  margin-right: .5em;
+}
+
+.Filters {
+  display: flex;
+  margin-top: .5em;
+}
+
+.Products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
