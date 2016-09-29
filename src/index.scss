@@ -6,6 +6,7 @@
 
 body {
   font-size: 16px;
+  color: $silver-colorDark;
 }
 
 .App-content {
@@ -18,10 +19,18 @@ body {
   margin: .5em .5em 0 0;
 }
 
+.Filter-link {
+  text-decoration: none;
+  color: $blue-color;
+}
+
+.Filter-link:hover {
+  color: darken($blue-color, 30%);
+}
+
 .FilterList {
   display: flex;
 }
-
 
 .Header-logo {
   font-weight: normal;
@@ -84,6 +93,19 @@ body {
 .Product-stock {
   align-self: flex-end;
   margin: 0 1em 1em 0;
+}
+
+.is-highCant {
+  @extend .Product-stock;
+  color: $green-color;
+}
+.is-mediumCant {
+  @extend .Product-stock;
+  color: $orange-color;
+}
+.is-lowCant {
+  @extend .Product-stock;
+  color: $red-color;
 }
 
 .Product-title {

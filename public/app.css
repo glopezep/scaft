@@ -394,7 +394,8 @@ ul {
   content: "\E902"; }
 
 body {
-  font-size: 16px; }
+  font-size: 16px;
+  color: #4D4D4D; }
 
 .App-content {
   background-color: #F2F2F2;
@@ -403,6 +404,13 @@ body {
 
 .Filter {
   margin: .5em .5em 0 0; }
+
+.Filter-link {
+  text-decoration: none;
+  color: #3FA9F5; }
+
+.Filter-link:hover {
+  color: #085993; }
 
 .FilterList {
   display: flex; }
@@ -454,9 +462,18 @@ body {
   font-size: 1.3em;
   font-weight: bold; }
 
-.Product-stock {
+.Product-stock, .is-highCant, .is-mediumCant, .is-lowCant {
   align-self: flex-end;
   margin: 0 1em 1em 0; }
+
+.is-highCant {
+  color: #7AC943; }
+
+.is-mediumCant {
+  color: #FF931E; }
+
+.is-lowCant {
+  color: #C1272D; }
 
 .Product-title {
   font-size: 1.5em;
