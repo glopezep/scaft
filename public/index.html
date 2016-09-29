@@ -10,28 +10,34 @@
 <body>
   <main id="App">
     <header class="Header">
-      <div class="u-maxWidthContainer">
-        <h1 class="Logo">Foodie</h1>
-      </div>
+      <h1 class="Header-logo">Foodie</h1>
     </header>
     <section class="App-content">
-      <div class="Products">
-        <header class="Products-header">
-          <h2 class="Products-title">Products</h2>
-          <div class="Products-filter">
-            <form action="" class="ProductsForm">
-              <input type="text" class="ProductsForm-input" placeholder="Search">
+      <div class="ProductBox">
+        <header class="ProductHeader">
+          <h2 class="ProductHeader-title">Products</h2>
+          <div class="FilterBox">
+            <form class="ProductForm">
+              <input type="text" class="ProductForm-input" placeholder="Search">
             </form>
-            <ul class="Filters">
-              <li class="Filter">Drinks</li>
-              <li class="Filter">Foods</li>
-              <li class="Filter">Candys</li>
-              <li class="Filter">Cereals</li>
+            <ul class="FilterList">
+              <li class="Filter">
+                <a href="" class="Filter-link">Drinks</a>
+              </li>
+              <li class="Filter">
+                <a href="" class="Filter-link">Foods</a>
+              </li>
+              <li class="Filter">
+                <a href="" class="Filter-link">Candys</a>
+              </li>
+              <li class="Filter">
+                <a href="" class="Filter-link">Cereals</a>
+              </li>
             </ul>
           </div>
         </header>
+        <ul class="ProductList"></ul>
       </div>
-      <div class="Order"></div>
     </section>
   </main>
   <script src="app.js"></script>
