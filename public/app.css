@@ -419,7 +419,7 @@ body {
 
 .Product-description {
   margin-left: 1em;
-  flex-grow: 8; }
+  flex-grow: 1; }
 
 .Product-price {
   font-size: 1.3em;
