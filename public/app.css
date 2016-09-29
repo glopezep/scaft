@@ -426,8 +426,8 @@ body {
   font-weight: bold; }
 
 .Product-stock {
-  flex-grow: 1;
-  align-self: flex-end; }
+  align-self: flex-end;
+  margin: 0 1em 1em 0; }
 
 .Product-title {
   font-size: 1.5em;
