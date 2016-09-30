@@ -16,3 +16,15 @@
 .FilterList {
   display: flex;
 }
+
+.FilterListBox {
+  display: flex;
+  align-items: flex-end;
+  margin-top: .5em;
+}
+
+.FilterListBox-button {
+  text-decoration: none;
+  color: $silver-colorDark;
+  font-size: 1.3em;
+}

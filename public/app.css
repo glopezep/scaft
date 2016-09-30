@@ -490,7 +490,7 @@ ul {
   margin-top: 1em;
   align-items: center; }
 
-.OrderFooter-button {
+.OrderFooter-button, .OrderFooter-button--complete {
   background-color: #3FA9F5;
   border: none;
   color: white;
@@ -524,6 +524,16 @@ ul {
 .FilterList {
   display: flex; }
 
+.FilterListBox {
+  display: flex;
+  align-items: flex-end;
+  margin-top: .5em; }
+
+.FilterListBox-button {
+  text-decoration: none;
+  color: #4D4D4D;
+  font-size: 1.3em; }
+
 .Header {
   border-bottom: 1px solid #E6E6E6; }
 
@@ -537,7 +547,7 @@ body {
   color: #4D4D4D;
   background-color: #F2F2F2; }
 
-.App-content {
+.AppBox {
   display: flex;
   padding-top: 1em; }
 

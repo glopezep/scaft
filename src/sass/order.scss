@@ -18,6 +18,10 @@
   padding: .7em;
 }
 
+.OrderFooter-button--complete {
+  @extend .OrderFooter-button;
+}
+
 .OrderHeader {
   margin-bottom: 1em;
 }
