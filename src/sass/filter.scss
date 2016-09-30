@@ -1,0 +1,17 @@
+.Filter {
+  margin: .5em .5em 0 0;
+}
+
+.Filter-link {
+  text-decoration: none;
+  color: $blue-color;
+  transition: all .2s linear;
+}
+
+.Filter-link:hover {
+  color: darken($blue-color, 30%);
+}
+
+.FilterList {
+  display: flex;
+}

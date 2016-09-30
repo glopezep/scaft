@@ -1,154 +1,21 @@
-@import "utils/normalize";
-@import "utils/reset";
-@import "utils/colors";
-@import "utils/font";
+@import "sass/utils/normalize";
+@import "sass/utils/reset";
+@import "sass/utils/colors";
+@import "sass/utils/font";
+@import "sass/utils/util";
+@import "sass/product";
+@import "sass/order";
+@import "sass/filter";
+@import "sass/header";
 
 
 body {
   font-size: 16px;
   color: $silver-colorDark;
+  background-color: $silver-colorLight;
 }
 
 .App-content {
-  background-color: $silver-colorLight;
   display: flex;
   padding-top: 1em;
-}
-
-.Filter {
-  margin: .5em .5em 0 0;
-}
-
-.Filter-link {
-  text-decoration: none;
-  color: $blue-color;
-}
-
-.Filter-link:hover {
-  color: darken($blue-color, 30%);
-}
-
-.FilterList {
-  display: flex;
-}
-
-.Header-logo {
-  font-weight: normal;
-  line-height: 50px
-}
-
-.OrderBox {
-  flex-grow: 1;
-  padding: 0 1em;
-}
-
-.OrderFooter {
-  display: flex;
-  margin-top: 1em;
-  align-items: center;
-}
-
-.OrderFooter-button {
-  background-color: $blue-color;
-  border: none;
-  color: white;
-  margin-right: 1.5em;
-  padding: .7em;
-}
-
-.OrderHeader {
-  margin-bottom: 1em;
-}
-
-.OrderHeader-row {
-  display: flex;
-}
-
-.OrderHeader-subTitle:first-child {
-  margin-right: 3.8em;
-}
-
-.OrderHeader-title {
-  margin-bottom: 1em;
-}
-
-.Product {
-  background: white;
-  display: flex;
-  align-items: center;
-  margin-bottom: 1em;
-  height: 100px;
-}
-
-.Product-description {
-  margin-left: 1em;
-  flex-grow: 1;
-}
-
-.Product-price {
-  font-size: 1.3em;
-  font-weight: bold;
-}
-
-.Product-stock {
-  align-self: flex-end;
-  margin: 0 1em 1em 0;
-}
-
-.is-highCant {
-  @extend .Product-stock;
-  color: $green-color;
-}
-.is-mediumCant {
-  @extend .Product-stock;
-  color: $orange-color;
-}
-.is-lowCant {
-  @extend .Product-stock;
-  color: $red-color;
-}
-
-.Product-title {
-  font-size: 1.5em;
-  font-weight: lighter;
-  margin-bottom: .3em;
-}
-
-.Product-icon {
-  background-color: $blue-color;
-  color: white;
-  font-size: 4.2em;
-  line-height: 100px;
-  text-align: center;
-  width: 120px;
-}
-
-.Product--inline {
-  display: flex;
-}
-
-.Product--inline {
-  padding: .5em 0 ;
-  border-bottom: solid 1px silver;
-}
-
-.Product--inline .Product-title, .Product-price {
-  font-weight: lighter;
-  display: inline-flex;
-  align-items: flex-start;
-  margin: 0 1em 0 0;
-  font-size: 1.2em
-}
-
-
-.ProductBox {
-  flex-grow: 5;
-  padding: 0 1em
-}
-
-.ProductHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1em;
 }

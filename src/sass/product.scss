@@ -1,0 +1,97 @@
+.Product {
+  background: white;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  height: 125px;
+  transition: border .2s linear;
+}
+
+.Product:hover {
+  border: 2px solid $blue-color;
+
+}
+
+.Product-description {
+  margin-left: 1em;
+  flex-grow: 1;
+}
+
+.Product-price {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.Product-stock {
+  align-self: flex-end;
+  margin: 0 1em 1em 0;
+}
+
+.Product-title {
+  font-size: 1.5em;
+  font-weight: lighter;
+  margin-bottom: .3em;
+}
+
+.Product-icon {
+  background-color: $blue-color;
+  color: white;
+  font-size: 4.2em;
+  line-height: 125px;
+  text-align: center;
+  width: 125px;
+}
+
+.Product-iconRemove {
+  text-decoration: none;
+  color: $red-color;
+}
+
+.Product--inline {
+  display: flex;
+}
+
+.Product--inline {
+  padding: .5em 0 ;
+  border-bottom: solid 1px $border-color;
+}
+
+.Product--inline .Product-title, .Product-price {
+  font-weight: lighter;
+  display: inline-flex;
+  align-items: flex-start;
+  margin: 0 1em 0 0;
+  font-size: 1.2em
+}
+
+.ProductBox {
+  flex-grow: 5;
+  padding: 0 1em
+}
+
+.ProductForm-search {
+  border: none;
+  padding: .5em;
+}
+
+.ProductHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.is-highCant {
+  @extend .Product-stock;
+  color: $green-color;
+}
+.is-mediumCant {
+  @extend .Product-stock;
+  color: $orange-color;
+}
+.is-lowCant {
+  @extend .Product-stock;
+  color: $red-color;
+}

@@ -1,0 +1,35 @@
+.OrderBox {
+  border-left: 1px solid $border-color;
+  flex-grow: 1;
+  padding: 0 1em;
+}
+
+.OrderFooter {
+  display: flex;
+  margin-top: 1em;
+  align-items: center;
+}
+
+.OrderFooter-button {
+  background-color: $blue-color;
+  border: none;
+  color: white;
+  margin-right: 1.5em;
+  padding: .7em;
+}
+
+.OrderHeader {
+  margin-bottom: 1em;
+}
+
+.OrderHeader-row {
+  display: flex;
+}
+
+.OrderHeader-subTitle:first-child {
+  margin-right: 3.8em;
+}
+
+.OrderHeader-title {
+  margin-bottom: 1em;
+}
