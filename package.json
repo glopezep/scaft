@@ -1,6 +1,6 @@
 {
   "name": "scaft",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "App para automatizar los servicios de las cafeterias",
   "main": "index.js",
   "scripts": {
