@@ -1,7 +1,6 @@
 .Product {
   background: white;
-  box-sizing: border-box;
-  border: 2px solid transparent;
+  border: 2px solid $silver-colorLight;
   display: flex;
   align-items: center;
   margin-bottom: 1em;
@@ -44,10 +43,18 @@
   width: 125px;
 }
 
+
 .Product-iconRemove {
   text-decoration: none;
   color: $red-color;
+  padding: .1em .3em;
 }
+
+.Product-iconRemove:hover {
+  background-color: $blue-color;
+  color: white;
+}
+
 
 .Product--inline {
   display: flex;

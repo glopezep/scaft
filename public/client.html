@@ -13,46 +13,83 @@
       <h1 class="Header-logo">Foodie</h1>
     </header>
     <section class="App-content">
-      <div class="OrderUserBox">
-        <header class="OrderUserHeader">
-          <h1 class="OrderUserHeader-title">Orders</h1>
+      <div class="ProductBox">
+        <header class="ProductHeader">
+          <h1 class="ProductHeader-title">Products</h1>
           <div class="FilterBox">
-            <form class="OrderUserForm">
-              <input type="text" class="OrderUserForm-search" placeholder="Seatch">
+            <form class="ProductForm">
+              <input type="search" class="ProductForm-search" name="q" placeholder="Search">
             </form>
             <ul class="FilterList">
-              <li class="Filter"><a href="#" class="Filter-link">Pending</a></li>
-              <li class="Filter"><a href="#" class="Filter-link">Completed</a></li>
+              <li class="Filter">
+                <a href="" class="Filter-link">Drinks</a>
+              </li>
+              <li class="Filter">
+                <a href="" class="Filter-link">Foods</a>
+              </li>
+              <li class="Filter">
+                <a href="" class="Filter-link">Candys</a>
+              </li>
+              <li class="Filter">
+                <a href="" class="Filter-link">Cereals</a>
+              </li>
             </ul>
           </div>
         </header>
-        <ul class="OrderUserList">
-          <li class="OrderUser">
-            <i class="OrderUser-icon icon-user"></i>
-            <div class="OrderUser-description">
-              <p class="OrderUser-title">Order-1289</p>
-              <p class="OrderUser-state is-pending">Pending</p>
+        <ul class="ProductList">
+          <li class="Product">
+            <i class="Product-icon icon-drink"></i>
+            <div class="Product-description">
+              <P class="Product-title">Orange Juice</P>
+              <P class="Product-price">RD$120</P>
+            </div>
+            <div class="Product-stock is-highCant">
+              <span class="Product-label">Stock:</span>
+              <span class="Product-cant">30</span>
             </div>
           </li>
-          <li class="OrderUser">
-            <i class="OrderUser-icon icon-user"></i>
-            <div class="OrderUser-description">
-              <p class="OrderUser-title">Order-1289</p>
-              <p class="OrderUser-state is-pending">Pending</p>
+          <li class="Product">
+            <i class="Product-icon icon-drink"></i>
+            <div class="Product-description">
+              <P class="Product-title">Orange Juice</P>
+              <P class="Product-price">RD$120</P>
+            </div>
+            <div class="Product-stock is-highCant">
+              <span class="Product-label">Stock:</span>
+              <span class="Product-cant">30</span>
             </div>
           </li>
-          <li class="OrderUser">
-            <i class="OrderUser-icon icon-user"></i>
-            <div class="OrderUser-description">
-              <p class="OrderUser-title">Order-1289</p>
-              <p class="OrderUser-state is-pending">Pending</p>
+          <li class="Product">
+            <i class="Product-icon icon-drink"></i>
+            <div class="Product-description">
+              <P class="Product-title">Orange Juice</P>
+              <P class="Product-price">RD$120</P>
+            </div>
+            <div class="Product-stock is-highCant">
+              <span class="Product-label">Stock:</span>
+              <span class="Product-cant">30</span>
             </div>
           </li>
-          <li class="OrderUser">
-            <i class="OrderUser-icon icon-user"></i>
-            <div class="OrderUser-description">
-              <p class="OrderUser-title">Order-1289</p>
-              <p class="OrderUser-state is-pending">Pending</p>
+          <li class="Product">
+            <i class="Product-icon icon-drink"></i>
+            <div class="Product-description">
+              <P class="Product-title">Orange Juice</P>
+              <P class="Product-price">RD$120</P>
+            </div>
+            <div class="Product-stock is-highCant">
+              <span class="Product-label">Stock:</span>
+              <span class="Product-cant">30</span>
+            </div>
+          </li>
+          <li class="Product">
+            <i class="Product-icon icon-drink icon-drink"></i>
+            <div class="Product-description">
+              <p class="Product-title">Orange Juice</p>
+              <p class="Product-price">RD$120</p>
+            </div>
+            <div class="Product-stock is-highCant">
+              <span class="Product-label">Stock:</span>
+              <span class="Product-cant">30</span>
             </div>
           </li>
         </ul>
@@ -118,7 +155,7 @@
           </li>
         </ul>
         <footer class="OrderFooter">
-          <button class="OrderFooter-button">COMPLETE</button>
+          <button class="OrderFooter-button">CHECKOUT</button>
           <div class="OrderFooter-total">
             <p class="OrderFooter-label">TOTAL</p>
             <p class="OrderFooter-cant">RD$1200</p>

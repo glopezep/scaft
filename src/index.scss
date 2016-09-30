@@ -19,3 +19,42 @@ body {
   display: flex;
   padding-top: 1em;
 }
+
+.OrderUser {
+  @extend .Product;
+}
+
+.OrderUser-description {
+  @extend .Product-description;
+}
+
+.OrderUserHeader {
+  @extend .ProductHeader;
+}
+
+.OrderUser-icon {
+  @extend .Product-icon;
+  background-color: $purple-color;
+}
+
+.OrderUser-title {
+  @extend .Product-title;
+}
+.OrderUser-state {
+  @extend .Product-price;
+}
+
+.OrderUserBox {
+  @extend .ProductBox;
+}
+
+.OrderUserForm-search {
+  @extend .ProductForm-search;
+}
+
+.is-completed {
+  @extend .is-highCant;
+}
+.is-pending {
+  @extend .is-mediumCant;
+}

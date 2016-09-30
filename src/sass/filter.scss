@@ -1,5 +1,5 @@
 .Filter {
-  margin: .5em .5em 0 0;
+  margin: .5em 1em 0 0;
 }
 
 .Filter-link {
@@ -10,6 +10,7 @@
 
 .Filter-link:hover {
   color: darken($blue-color, 30%);
+  text-decoration: underline;
 }
 
 .FilterList {
