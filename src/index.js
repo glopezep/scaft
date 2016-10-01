@@ -2,11 +2,17 @@ import './index.scss'
 import React from 'react'
 import { render } from 'react-dom'
 import socketio from 'socket.io-client'
+import { Provider } from 'react-redux'
+import store from './store'
 import AppBox from './containers/AppBox'
 
 const app = document.getElementById('App')
 
-render(<AppBox/>, app)
+render(
+  <Provider store={store}>
+    <AppBox/>
+  </Provider>
+,app)
 
 const socket = socketio()
 window.socket = socket
